@@ -1,0 +1,65 @@
+<%- include("./partials/header") %>
+<div class="container">
+<section>
+    
+        <div class="container" style="margin-top: 100px; margin-bottom: 100px;">
+            <h2 class="text-center" style="font-size: 50px;">İletişim</h2>
+        </div>
+        <div class="container" style="margin-bottom: 100px;">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="cont-details">
+                        <div class="cont-top">
+                            <div class="cont-right">
+                                <i class="fa fa-phone"></i> <h6>Call Us</h6>
+                                <p><a href="tel:+123-45-67-89">+123-45-67-89</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cont-top margin-up">
+                            <div class="cont-right">
+                                <i class="fas fa-envelope"></i>
+                                <h6>Email Us</h6>
+                                <p><a href="mailto:example@mail.com" class="mail">example@mail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="cont-top margin-up">
+                            <div class="cont-right">
+                                <i class="fas fa-map-pin"></i>
+                                <h6>Address</h6>
+                                <p>Turkey</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputName" class="form-label">Adınız Soyadınız</label>
+                          <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputEmail" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputSubject" class="form-label">Konu</label>
+                          <input type="text" class="form-control" id="inputSubject">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputMessage" class="form-label">Mesajınız</label>
+                          <textarea class="form-control" id="inputMessage" rows="4" style="resize: none;"></textarea>
+                        </div>
+                       
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-outline-light" style="float: right; width: 150px;">Gönder</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+  
+    
+</section>
+</div>
+    <%- include("./partials/footer") %>
